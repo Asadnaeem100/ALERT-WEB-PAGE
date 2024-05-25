@@ -1,0 +1,130 @@
+/* Comment Code */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Comment Code */
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+/* Comment Code */
+#box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 100vh;
+  background-color: mediumseagreen;
+}
+
+/* Comment Code */
+#box1{
+  width: 100px;
+  height: 100px;
+  background-color: rebeccapurple;
+}
+
+/* Comment Code */
+#box2{
+  width: 120px;
+  height: 120px;
+  background-color: darkgoldenrod;
+}
+
+/* Comment Code */
+#box3{
+  width: 140px;
+  height: 140px;
+  background-color: orangered;
+}
+
+/* Comment Code */
+.margin{
+  margin: 10%;
+}
+
+/* Comment Code */
+.border{
+  border: 5px solid black;
+  padding: 60px;
+  border-radius: 20px;
+  background-color: red;
+}
+
+/* Comment Code */
+.padding{
+    border: 12px dotted black;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+/* Comment Code */
+.card{
+  margin: 0 auto;
+  margin: 5px;
+  border: 3px solid red;
+  border-radius: 5px;
+  width: 160px;
+  float: left;
+  justify-content: center;
+}
+
+/* Comment Code */
+.card-header{
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Comment Code */
+.card:hover{
+    border: 5px solid #111;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Comment Code */
+.img{
+  width: 100%;
+  height: auto;
+}
+
+#demo{
+  font-size: 13px;
+}
+
+.split{
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+}
+
+.left{
+  left: 0;
+  background-color: yellow;
+}
+
+.right{
+  right: 0;
+  background-color: red;
+}
+
+.centered{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img{
+  width: 150px;
+  border-radius: 1000px;
+}
